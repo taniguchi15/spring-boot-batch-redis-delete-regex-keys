@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: DEBUG
+spring:
+  messages:
+    basename: messages,ValidationMessages,PropertyNames
+    cache-duration: -1
+    encoding: UTF-8
+  # Redis
+  redis:
+    host: localhost
+    port: 6379
+    password: null
+    database: 0
